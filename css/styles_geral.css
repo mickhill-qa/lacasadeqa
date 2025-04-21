@@ -50,16 +50,16 @@ a:visited {text-decoration: none;outline: none;text-shadow: none;}
 	Custom default button
 -----------------------------*/
 .btn{transition: 400ms;margin-top: 10px;}
-.btn-primary {color: #eeeeee;background-color: #f59611;border-color: #f59611;}
+.btn-primary {color: #eeeeee;background-color: #f600003b;border-color: #f51111;}
 .btn-primary+.btn-check:focus,
 .btn-primary:focus,
-.btn-primary:hover {color: #eeeeee;background-color: #0e71eb;border-color: #0e71eb;}
+.btn-primary:hover {color: #f51111;background-color: #000000;border-color: #f51111;}
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {text-shadow: none; /* Prevent inheritance from `body` */}
 .btn-youtube {color: #eeeeee;background-color: #dd1811;border-color: #dd1811;}
 .btn-youtube:hover {color: #eeeeee;background-color: #b4140f;border-color: #b4140f;}
-.btn-zoom {color: #eeeeee;background-color: #0e71eb;border-color: #0e71eb;}
+.btn-zoom {color: #eeeeee;background-color: #0e71eb3b;border-color: #0e71eb;}
 .btn-zoom+.btn-check:focus,
 .btn-zoom:focus,
 .btn-zoom:hover{color: #eeeeee;background-color: #0b4791;border-color: #0b4791;}
