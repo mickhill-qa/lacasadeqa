@@ -27,6 +27,7 @@
 1. [Gleyciana Campelo](https://www.linkedin.com/in/gleyciana-campelo/)
 1. [Cleidison Feitoza](https://www.linkedin.com/in/cleidison-feitoza-6ba060222/)
 1. [Edmozer Cavalcante](https://www.linkedin.com/in/edmozer-cavalcante/)
+1. [Camila Cavalcante](https://www.linkedin.com/in/camila-fernandes-cavalcante-435a09291/)
 1. [Sandro Augusto](https://www.linkedin.com/in/sandro-augusto/)
 1. [Edinete Sousa](https://www.linkedin.com/in/edinetesousa/)
 1. [Luana Lins](https://www.linkedin.com/in/luanalinsv/)
