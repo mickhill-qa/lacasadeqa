@@ -1,6 +1,7 @@
 ### Melhores Alunos do tio Mick Hill
 ***Inimigos do Fim!***
 
+1. [Siqueira Neto](https://www.linkedin.com/in/siqueiraneto/)
 1. [Arthur Guimarães](https://www.linkedin.com/in/arthur-motta-guimar%C3%A3es-3962b61b9/)
 1. [Ronierison Costa](https://www.linkedin.com/in/ronin-qa/)
 1. [Thiago Felipe](https://www.linkedin.com/in/thiagofelipe1002/)
@@ -12,7 +13,6 @@
 1. [Carlos Fernandes](https://www.linkedin.com/in/cfernandes22/)
 1. [Neylson Nascimento](https://www.linkedin.com/in/neylson-nascimento-46b646171/)
 1. [Gabriela Ferreira](https://www.linkedin.com/in/enggabi/)
-1. [Siqueira Neto](https://www.linkedin.com/in/siqueiraneto/)
 1. [Marillia Dantas](https://www.linkedin.com/in/marilliadantas/)
 1. [Aesley Soares Nobre](https://www.linkedin.com/in/aesleysoares/)
 1. [Eduardo Borges Cavalcante](https://www.linkedin.com/in/eduardo-borges-analisedesistemas-60029631/)
