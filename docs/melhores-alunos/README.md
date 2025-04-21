@@ -42,6 +42,7 @@
 1. [Alexsandro Amancio](https://www.linkedin.com/in/alexsandroamancio1985/)
 1. [Anderson Maciel](https://www.linkedin.com/in/anderson-r-maciel/)
 1. [Ítalo Freitas](https://www.linkedin.com/in/%C3%ADtalo-freitas-017a831a8/)
+1. [Karen Sousa](https://www.linkedin.com/in/karendavila21/)
 1. [Jonnas Targino](https://www.linkedin.com/in/jonnastargino/)
 1. [Lisio Souza](https://www.linkedin.com/in/lisiosouza/)
 1. [César Nocrato](https://www.linkedin.com/in/acnocrato/)
