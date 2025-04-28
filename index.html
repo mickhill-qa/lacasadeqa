@@ -33,25 +33,78 @@
 </head>
 
 <body class="d-flex h-100 bg-dark">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center text-white">
 
-        <header class="mb-auto">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-white">
+
+        <header class="mb-auto text-center">
             <div>
-                <h3 class="float-md-start mb-0">La Casa de QA</h3>
+                <h3 class="float-md-start mb-0">
+                    <a class=" text-white" aria-current="page" href="#" data-bs-toggle="collapse"
+                        data-bs-target="#cronograma" aria-controls="cronograma" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        La Casa de QA
+                    </a>
+                </h3>
                 <nav class="nav nav-masthead justify-content-center float-md-end">
-                    <!-- <a class="nav-link active" aria-current="page" href="#">Brasil</a> -->
-                    <!-- <a class="nav-link" href="#">Contact</a> -->
                     <a class="nav-link" aria-current="page" href="#" data-bs-toggle="modal"
-                        data-bs-target="#cronograma">CRONOGRAMA</a>
-                    <!-- <a class="nav-link" aria-current="page" href="#" data-bs-toggle="modal"
-                        data-bs-target="#edital">EDITAL</a> -->
+                        data-bs-target="#edital">EDITAL 2025.2</a>
                 </nav>
             </div>
         </header>
 
-        <main id="container-countdown" class="px-3">
-            <h1>Em Breve...</h1>
-            <p>será compartilhado um Edital com as diretrizes de seleção para novos candidatos.</p>
+        <div id="cronograma" class="collapse">
+            <div class="p-4">
+                <!-- <h5 class="text-white h4">Collapsed content</h5> -->
+                <!-- <span class="text-muted">Toggleable via the navbar brand.</span> -->
+                <ul class="list-group list-group-flush">
+                    <!-- <li class="list-group-item list-group-item-info list-group-item-action">
+                        <input class="form-check-input me-1" type="checkbox" disabled checked>
+                        Planejamento
+                    </li> -->
+                    <li class="list-group-item list-group-item-info list-group-item-action">
+                        <input class="form-check-input me-1" type="checkbox" disabled>
+                        Início das Inscrições: Quinta-feira, 15 de maio de 2025
+                    </li>
+                    <li class="list-group-item list-group-item-info list-group-item-action">
+                        <input class="form-check-input me-1" type="checkbox" disabled>
+                        Fim das Inscrições: Até quinta-feira, 05/junho/2025 as 23:59
+                    </li>
+                    <li class="list-group-item list-group-item-info list-group-item-action">
+                        <input class="form-check-input me-1" type="checkbox" disabled>
+                        Prova de Avaliação: Sexta-feira, 06/junho/2025 as 19:30
+                    </li>
+                    <li class="list-group-item list-group-item-info list-group-item-action">
+                        <input class="form-check-input me-1" type="checkbox" disabled>
+                        Divulgação de Resultados: Até sexta-feira, 13/junho/2025
+                    </li>
+                    <li class="list-group-item list-group-item-info list-group-item-action">
+                        <input class="form-check-input me-1" type="checkbox" disabled>
+                        Convocação dos Aprovados: Até sexta-feira, 20/junho/2025
+                    </li>
+                    <li class="list-group-item list-group-item-info list-group-item-action">
+                        <input class="form-check-input me-1" type="checkbox" disabled>
+                        Convocação do Cadastro Reserva: Até sexta-feira, 27/junho/2025
+                    </li>
+                    <li class="list-group-item list-group-item-info list-group-item-action">
+                        <input class="form-check-input me-1" type="checkbox" disabled>
+                        Início do Grupo: Terça-feira, 01/julho/2025
+                    </li>
+                    <li class="list-group-item list-group-item-info list-group-item-action">
+                        <input class="form-check-input me-1" type="checkbox" disabled>
+                        Fim do Grupo: Sexta-feira, 19/dezembro/20255
+                    </li>
+                    <!-- <br />
+                    <li class="list-group-item list-group-item-success list-group-item-action">
+                        <input class="form-check-input me-1" type="checkbox" disabled checked>
+                        Vagas: 10
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+
+        <main id="container-countdown" class="px-3 text-center">
+            <h1>Edital disponível!</h1>
+            <p>O formulário de inscrição será disponibilizado em breve, conforme o cronograma estabelecido.</p>
             <br />
             <p>Inicio do Grupo de Estudos:</p>
             <p id="data"></p>
@@ -60,14 +113,14 @@
             <div id="countdown"></div>
             <br />
             <p id="note"></p>
-            <!-- <p>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formInscricao">
+            <p>
+                <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#form-inscricao">
                     Inscrição
-                </button>
-            </p> -->
+                </button> -->
+            </p>
         </main>
 
-        <footer class="mt-auto text-white-50">
+        <footer class="mt-auto text-white-50 text-center">
             <p>
                 <a href="#" class="text-white" data-bs-toggle="modal" data-bs-target="#melhores-alunos">Lista com os
                     Melhores Alunos...</a>
@@ -76,6 +129,7 @@
                     href="https://github.com/mickhill-qa/lacasadeqa" target="blank">GitHub</a>.
             </p>
         </footer>
+
     </div>
 
     <!-- Modal do Edital -->
@@ -90,9 +144,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <iframe
-                        src="https://www.churchofjesuschrist.org/bc/content/shared/content/portuguese/pdf/language-materials/59012_por.pdf"
-                        frameborder="0" marginheight="0" marginwidth="0">
+                    <iframe src="docs/edital-la-casa-de-qa.pdf 
+                        " frameborder="0" marginheight="0" marginwidth="0">
                         Carregando…
                     </iframe>
                 </div>
@@ -100,65 +153,8 @@
         </div>
     </div>
 
-    <!-- Modal do CRONOGRAMA -->
-    <div class="modal fade" id="cronograma" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Cronograma de Seleção</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <ul class="list-group list-group-flush">
-                        <!-- <li class="list-group-item list-group-item-info list-group-item-action">
-                            <input class="form-check-input me-1" type="checkbox" disabled checked>
-                            Planejamento
-                        </li> -->
-                        <li class="list-group-item list-group-item-danger">
-                            <input class="form-check-input me-1" type="checkbox" disabled>
-                            Início das Inscrições: (Ainda não definido...)
-                        </li>
-                        <li class="list-group-item list-group-item-danger">
-                            <input class="form-check-input me-1" type="checkbox" disabled>
-                            Final das Inscrições: (Ainda não definido...)
-                        </li>
-                        <li class="list-group-item list-group-item-danger">
-                            <input class="form-check-input me-1" type="checkbox" disabled>
-                            Prova de Avaliação: (Ainda não definido...)
-                        </li>
-                        <li class="list-group-item list-group-item-danger">
-                            <input class="form-check-input me-1" type="checkbox" disabled>
-                            Divulgação de Resultados: (Ainda não definido...)
-                        </li>
-                        <li class="list-group-item list-group-item-danger">
-                            <input class="form-check-input me-1" type="checkbox" disabled>
-                            Convocação e Matrícula: (Ainda não definido...)
-                        </li>
-                        <li class="list-group-item list-group-item-info list-group-item-action">
-                            <input class="form-check-input me-1" type="checkbox" disabled>
-                            Início do Grupo: 01/07/2025
-                        </li>
-                        <li class="list-group-item list-group-item-info list-group-item-action">
-                            <input class="form-check-input me-1" type="checkbox" disabled>
-                            Fim do Grupo: 19/12/20255
-                        </li>
-                        <br />
-                        <li class="list-group-item list-group-item-success list-group-item-action">
-                            <input class="form-check-input me-1" type="checkbox" disabled checked>
-                            Vagas: 10
-                        </li>
-                    </ul>
-                </div>
-                <div class="modal-footer">
-                    Matrícula: R$ 400,00, podendo haver desconto.
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Modal de Inscrição -->
-    <div class="modal fade" id="formInscricao" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    <div class="modal fade" id="form-inscricao" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
