@@ -48,6 +48,8 @@
                 <nav class="nav nav-masthead justify-content-center float-md-end">
                     <a class="nav-link text-white" aria-current="page" href="#" data-bs-toggle="modal"
                         data-bs-target="#edital">EDITAL 2025.2</a>
+                    <a class="nav-link text-white" aria-current="page" href="#" data-bs-toggle="offcanvas"
+                        data-bs-target="#menu-lateral">MENU</a>
                 </nav>
             </div>
         </header>
@@ -133,6 +135,49 @@
 
     </div>
 
+
+    <!-- Menu Lateral -->
+    <nav class="navbar navbar-dark bg-opacity-100 fixed-top">
+        <div class="container-fluid">
+            <div id="menu-lateral" class="offcanvas offcanvas-end text-bg-dark" tabindex="-1"
+                aria-labelledby="offcanvasDarkNavbarLabel" aria-modal="true" role="dialog">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <!-- Modal do Edital -->
     <div class="modal fade" id="edital" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -140,8 +185,8 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <div class="container">
-                        <a href="docs/edital-la-casa-de-qa.pdf" target="_blank">Download</a> 
-                        do Edital! Leia-o com atenção... 
+                        <a href="docs/edital-la-casa-de-qa.pdf" target="_blank">Download</a>
+                        do Edital! Leia-o com atenção...
                     </div>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
