@@ -15,6 +15,7 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="countdown/jquery.countdown.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
@@ -79,50 +80,73 @@
             <div id="menu-lateral" class="offcanvas offcanvas-end text-bg-dark" tabindex="-1"
                 aria-labelledby="offcanvasDarkNavbarLabel" aria-modal="true" role="dialog">
                 <div class="offcanvas-header">
-                    <h4 class="offcanvas-title" id="offcanvasDarkNavbarLabel">OOOOOOooooooooiiiiii</h4>
+                    <h4 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                        <i class="bi bi-megaphone-fill"></i>
+                        OOOOOOooooooooiiiiii
+                    </h4>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="docs/edital-la-casa-de-qa.pdf"
-                                target="_blank">> Edital</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">> Inscrição (Em Breve...)</a>
+                        <li class="nav-item dropdown">
+                            <span class="nav-link active show">
+                                Links
+                            </span>
+                            <ul class="dropdown-menu dropdown-menu-dark show">
+                                <li>
+                                    <a class="dropdown-item" href="docs/edital-la-casa-de-qa.pdf" target="_blank">
+                                        <i class="bi bi-cloud-download"></i>
+                                        Edital 2025
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item disabled" href="Em breve...">
+                                        <i class="bi bi-pencil-square"></i>
+                                        Inscrição (Em Breve...)
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="docs/melhores-alunos/index.html" target="_blank">
+                                        <i class="bi bi-linkedin"></i>
+                                        Melhores Alunos
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <hr class="nav-divider">
                         <li class="nav-item dropdown">
                             <span class="nav-link active show">
-                                > Cronograma
+                                Cronograma
                             </span>
                             <ul class="dropdown-menu dropdown-menu-dark show">
-                                <li><span class="dropdown-item">Inscrições: <br /> - Início 15/05/2025 <br /> - Fim
+                                <li><span class="dropdown-item disabled">Inscrições: <br /> - Início 15/05/2025 <br /> - Fim
                                         05/06/2025 as 23:59</span></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><span class="dropdown-item">Prova de Avaliação: 06/06/2025 as 19:30</span></li>
+                                <li><span class="dropdown-item disabled">Prova de Avaliação: 06/06/2025 as 19:30</span></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><span class="dropdown-item">Divulgação de Resultados: 13/06/2025</span></li>
+                                <li><span class="dropdown-item disabled">Divulgação de Resultados: 13/06/2025</span></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><span class="dropdown-item">Convocação <br /> - Aprovados: 20/06/2025 <br /> -
+                                <li><span class="dropdown-item disabled">Convocação <br /> - Aprovados: 20/06/2025 <br /> -
                                         Cadastro Reserva: 27/06/2025</span></li>
                             </ul>
                         </li>
                         <hr class="nav-divider">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="docs/melhores-alunos/index.html" target="_blank">> Melhores
-                                Alunos</a>
-                        </li>
                         <li class="nav-item dropdown" style="height: 234px;">
                             <span class="nav-link active">
-                                > Sobre o Tio Mick (Mentor)
+                                Sobre o Tio Mick (Mentor)
                             </span>
                             <iframe style="border-radius:12px"
                                 src="https://open.spotify.com/embed/episode/2KuwIrn8JzFKmnBFNpBHqr?utm_source=generator&theme=0"
