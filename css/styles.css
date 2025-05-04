@@ -65,11 +65,18 @@ a, a:visited {text-decoration: none;outline: none;text-shadow: none;}
 
 
 /*----------------------------
-	Formulário Presenca
+	Formulários
 -----------------------------*/
 .modal-header {color: black;}
 iframe {width: 100%; height: 99.6%;}
 
-.modal-header {background-color: #b1b1b1; padding: 0.5rem 1rem; border-bottom: 0}
+.modal-header {background-color: #5e6464; padding: 0.5rem 1rem; border-bottom: 0}
 .modal-header .btn {margin-top: 0px;}
 .modal-body {padding: 0rem}
+
+
+/*----------------------------
+	Menu Lateral
+-----------------------------*/
+#menu-lateral .nav-item {margin-bottom: 35px;}
+#menu-lateral .nav-link {margin-bottom: 13px; margin-left: 5px; padding: 0;}
